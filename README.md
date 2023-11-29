@@ -1,1 +1,4 @@
-# Searching-Pi-with-Monte_Carlo
+# Задание A1 Максимов Никита БПИ 227-1
+## [Код прогрaммы](main.py)
+'''python
+'''
