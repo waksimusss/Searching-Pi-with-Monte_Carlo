@@ -31,7 +31,7 @@ for N in range(100, 5000, 100):
     pi = math.pi
     arr.append(x)
     num.append(N)
-    sigma.append((1 - (x / pi)) * 100)
+    sigma.append((abs(x-pi)/ pi)) * 100)
 
 plt.subplot(1, 3, 1)
 plt.plot(num, arr, marker='o', markersize=5)
