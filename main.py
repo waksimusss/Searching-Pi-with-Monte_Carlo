@@ -1,6 +1,6 @@
 import math
 import random as rnd
-
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
@@ -43,5 +43,6 @@ plt.hlines(0, 0, 5000, color='blue')
 plt.xlabel("Кол-во испытаний")
 plt.ylabel("Отклонение в %")
 plt.title("График №2")
-
+data = pd.DataFrame({'Кол-во испытаний': num, 'Значение PI': arr, 'Отклонение в процентах': sigma})
+print(data)
 plt.show()
